@@ -33,6 +33,7 @@ class (y)
 # Converting a numeric value to an integer
 y <- 8
 class(y)
+
 typeof(y)
 y <- as.integer(y)
 class(y)
@@ -75,10 +76,7 @@ typeof(Date)
 AgeDays = as.double(Sys.Date() - as.Date("2000-01-01"))
 AgeYears = AgeDays/365
 
-#Sys.time
-Time <- Sys.time()
-class(Time)
-typeof(Time)
+
 
 ## Operators
 
@@ -91,10 +89,6 @@ rm(list=ls(all=TRUE))
 # Assign two numbers to variables
 x <- 100
 y <- 250
-
-z1 <- X + y
-
-# The preceeding will return an error because X <> x
 
 z1 <- x + y
 z1
